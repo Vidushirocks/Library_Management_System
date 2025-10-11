@@ -52,9 +52,9 @@ CREATE TABLE `books` (
 -- Dumping data for table `books`
 --
 
-INSERT INTO `books` (`id`, `name`, `desc`, `author`, `availability`, `edition`, `count`) VALUES
-(1, '101 Ways To Be A Software Engineer', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut repudiandae assumenda distinctio quas tempore, voluptatibus accusamus dolores temporibus, recusandae eligendi similique. Optio, eius? Sint vel nemo, quisquam architecto fugit odio!', 'Mr. Johnny Test', 1, '1', 3),
-(2, 'JAVA For Absolute Beginners', 'Step into the basics of java programmming along with globally famed programmer', '', 1, '1', 5);
+INSET INTO `books` (`id`, `name`, `desc`, `author`, `availability`, `edition`, `count`) VALUES
+(1, 'Data Science from Scratch', 'First Principles with Python', ' Joel Grus', 1, '1', 5),
+(2, 'Learn AI with Python', 'Explore machine learning and deep learning techniques for building smart AI systems using libraries such as Scikit-Learn, NLTK, NeuroLab, and Keras.', 'Gaurav Leekha', 1, '1', 6);
 
 -- --------------------------------------------------------
 
@@ -98,8 +98,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `bio`, `mob`, `lock`, `created_at`) VALUES
-(1, 'Prashi', 'prashi@gmail.com', '025db420560617303c2ba988d050ec62562343bc0fb0358d31d2f0bae8dbede8', 'They watch you from the shelf while you sleep 👀. Are you dreaming of them, they wonder, in that wistful mood books are prone to at night when they are bored and there is nothing else to do but tease the cat.?', '', 0, '2025-9-09 00:00:00'),
-(6, 'Prahi', 'naveed@gmail.com', '025db420560617303c2ba988d050ec62562343bc0fb0358d31d2f0bae8dbede8', 'Hi :)! Long time no see ❤️', '', 0, '2025-9-18 23:07:53');
+(1, 'Prashi', 'prashi@gmail.com', '025db420560617303c2ba988d050ec62562343bc0fb0358d31d2f0bae8dbede8', '📖 Ink in my veins, stories in my soul. I live between lines and dream in chapters.', '', 0, '2025-9-09 00:00:00'),
+(6, 'Prahi', 'prahi@gmail.com', '025db420560617303c2ba988d050ec62562343bc0fb0358d31d2f0bae8dbede8', 'Hey, welcome back! It is great to see you again 😊', '', 0, '2025-9-18 23:07:53');
 
 --
 -- Indexes for dumped tables
